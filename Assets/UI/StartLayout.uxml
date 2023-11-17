@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheet/menu-button.uss?fileID=7433441132597879392&amp;guid=1b7beb5a5bfeb214a98903bce6d278ed&amp;type=3#menu-button" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Button text="START GAME" display-tooltip-when-elided="true" name="Start" class="menu-button" />
+        <ui:Button text="EXIT GAME" display-tooltip-when-elided="true" name="Exit" class="menu-button" />
+    </ui:VisualElement>
+</ui:UXML>

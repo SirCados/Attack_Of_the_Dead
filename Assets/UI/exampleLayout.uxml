@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheet/ExampleStyleSheet.uss?fileID=7433441132597879392&amp;guid=10e412e928bb475479c4ad701aec2896&amp;type=3#ExampleStyleSheet" />
+    <Style src="project://database/Assets/UI/StyleSheet/DeadMenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=ad873368012141e4781c8f43d9f55cb3&amp;type=3#DeadMenuStyleSheet" />
+    <ui:VisualElement style="flex-grow: 1; align-items: stretch; justify-content: flex-end;">
+        <ui:VisualElement name="GameOverContainer" class="game-over" style="align-items: stretch; justify-content: space-around; width: auto; flex-grow: 1; padding-left: 150px; padding-right: 150px; padding-top: 100px; padding-bottom: 100px;">
+            <ui:Button text="RESPAWN" display-tooltip-when-elided="true" name="Respawn" class="dead-button" style="justify-content: center;" />
+            <ui:Button text="EXIT GAME" display-tooltip-when-elided="true" name="Exit" class="dead-button" style="justify-content: center;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Score" style="font-size: 20px; -unity-text-align: upper-center; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-outline-color: rgb(248, 248, 248); background-color: rgba(255, 255, 255, 0);" />
+        </ui:VisualElement>
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="PowerUpDisplay" style="justify-content: flex-end; align-items: center; -unity-text-align: upper-center; font-size: 24px; -unity-font-style: bold; -unity-text-outline-color: rgb(245, 245, 245); text-shadow: 0 0 0 rgb(255, 255, 255); background-color: rgba(253, 253, 253, 0); color: rgb(253, 253, 253);" />
+        <ui:VisualElement name="Container" style="flex-basis: 100px; align-items: center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 20px; padding-right: 20px; padding-top: 0; padding-bottom: 20px;">
+            <ui:ProgressBar title=" " name="HealthBar" class="HealthBar" style="opacity: 0.8;" />
+            <ui:ProgressBar name="SprintBar" class="StaminaBar" style="opacity: 0.8; overflow: visible; display: flex; visibility: hidden; -unity-background-image-tint-color: rgb(248, 241, 15);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
